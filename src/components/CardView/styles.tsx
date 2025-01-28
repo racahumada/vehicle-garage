@@ -17,7 +17,7 @@ export const styles = StyleSheet.create({
   },
   imageLogo: {
     flex: 1,
-    width: '65%',
+    width: '50%',
     resizeMode: 'contain'
   },
 

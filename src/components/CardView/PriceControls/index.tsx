@@ -1,0 +1,1 @@
+export { default as PriceControls } from './PriceControlsView'

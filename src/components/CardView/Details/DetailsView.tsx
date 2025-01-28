@@ -2,11 +2,15 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import { styles } from './styles'
 
-const DetailsView = () => {
+interface DetailsProps {
+  carName: string
+}
+
+const DetailsView = ({carName = ''} : DetailsProps) => {
   return (
     <View style={styles.detailsContainer}>
-      <Text style={styles.carBrand}>Pegeout</Text>
-      <Text style={styles.carName}>208</Text>
+      <Text style={styles.carBrand}>Lamborghini</Text>
+      <Text style={styles.carName}>{carName}</Text>
     </View>
   )
 }
